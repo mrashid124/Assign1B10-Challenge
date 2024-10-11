@@ -21,4 +21,16 @@ nav ul{
 .nav-title{
     font-weight: 900;
     font-size: large;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    align-content: center;
+}
+.group-img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
 }
