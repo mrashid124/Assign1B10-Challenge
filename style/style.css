@@ -47,7 +47,7 @@ nav ul {
     background-image: url(../assets/Group.png);
     width: 260px;
     height: 217px;
-    
+
     align-items: center;
 }
 
@@ -116,11 +116,12 @@ justify-content: flex-start; */
     padding: 0px;
 }
 
-.layer1{
+.layer1 {
     background-image: url(../assets/Layer_1.png);
     width: 260px;
     height: 217px;
 }
+
 .group4 {
     border-color: brown;
     border-style: dotted;
@@ -135,4 +136,39 @@ justify-content: flex-start; */
     width: 260px;
     height: 217px;
 
+}
+
+.web-video {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 200px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dev {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.card-title{
+    border-color: brown;
+    border-style: dotted;
+    text-align: center;
+    width: 850px;  
+}
+
+.cards{
+    display: flex;
+    border-color: rgb(237, 5, 20);
+    border-style: dotted;
+    text-align: center;
 }
