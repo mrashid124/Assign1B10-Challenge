@@ -10,10 +10,11 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
-.navbar{
+.navbar {
     max-width: 1440px;
     text-decoration: none;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -43,6 +44,25 @@ nav ul {
     margin: 0 auto;
 }
 
+.banner-content {
+
+    width: 998px;
+    height: 581px;
+    left: 221px;
+    right: 221px;
+    top: 157px;
+    bottom: 4507px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+
+
+}
+
 .group-img {
     /* border-color: blue;
     border-style: dotted; */
@@ -56,6 +76,8 @@ nav ul {
 .button {
     background-color: rgb(16, 11, 11);
     color: aliceblue;
+    width: 244px;
+    height: 65px;
 }
 
 .btn {
@@ -82,17 +104,128 @@ nav ul {
     align-items: center;
     gap: 10;
     padding: 80px 97px 80px 97px;
+    margin-top: 74px;
+    margin-left: 148px;
+    margin-right: 152px;
 
 
 }
-.inspiration{
+
+.web-container {
+    width: 946px;
+    height: 1233px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48;
+    padding: 0px;
+}
+
+.web-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48;
+    width: 852px;
+    height: 113px;
+    margin-top: 48px;
+    padding: 0px;
+}
+
+.web-dev1 {
+    display: flex;
+    margin: 0px 10px;
+    padding: 48px;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
+.coding1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;
+    width: 477px;
+    height: 219px;
+}
+
+.layer1 {
+    width: 274.17px;
+    height: 240px;
+}
+
+.web-dev2 {
+    display: flex;
+    margin: 0px 10px;
+    padding: 48px;
+    justify-content: space-between;
+    gap: 32px;
+
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+}
+
+.group3 {
+    width: 223.2px;
+    height: 208.85px;
+}
+
+.coding2 {
+    width: 477px;
+    height: 219px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;
+}
+
+.web-dev3 {
+    margin-top: 32px;
+    display: flex;
+    margin: 0px 10px;
+    padding: 48px;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.coding3 {
+    width: 477px;
+    height: 219px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;
+}
+
+.group4 {
+    width: 240px;
+    height: 240px
+}
+
+.inspiration {
     width: 1140px;
     width: 75%;
     margin: 0 auto;
 }
-.cards{
+
+.cards {
     width: 1140px;
-    
+
 }
 
 .web-dev {
@@ -117,7 +250,7 @@ nav ul {
     border-style: dotted; */
     width: 477px;
     height: 219px;
- 
+
     gap: 32;
     padding: 0px;
 }
@@ -167,7 +300,7 @@ nav ul {
     max-width: 960px;
 }
 
-.card-title{
+.card-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +314,7 @@ nav ul {
 
 }
 
-.cards-container{
+.cards-container {
     display: flex;
     /* border-color: rgb(237, 5, 20);
     border-style: dotted; */
@@ -194,7 +327,10 @@ nav ul {
 
 
 }
-.card1, .card2, .card3 {
+
+.card1,
+.card2,
+.card3 {
     width: 33%;
     height: 530px;
     border: 1px solid green;
@@ -202,20 +338,23 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
 
 }
-#bg-image1{
-    background-color:rgba(255, 76, 30, 0.05);
+
+#bg-image1 {
+    background-color: rgba(255, 76, 30, 0.05);
 }
-#bg-image2{
+
+#bg-image2 {
     background-color: rgba(0, 76, 232, 0.05);
 }
-#bg-image3{
+
+#bg-image3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-.support{
+.support {
     width: 1140px;
     height: 313px;
     background-image: url(../assets/handshake.jpg);
@@ -225,10 +364,10 @@ nav ul {
     align-items: center;
     gap: 20px;
 }
-.support-container{
 
-}
-.footer{
+.support-container {}
+
+.footer {
     width: 1140px;
     display: flex;
     flex-direction: row;
@@ -237,18 +376,18 @@ nav ul {
     /* align-items: center;  */
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: row;
 }
 
 .footer .social-icons ul a li {
-	
+
     display: inline-block;
-	/* vertical-align:middle; */
-    list-style-type:none;
-}
-social-icons ul a li{
-	list-style-type:none;
+    /* vertical-align:middle; */
+    list-style-type: none;
 }
 
+social-icons ul a li {
+    list-style-type: none;
+}
