@@ -19,6 +19,7 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
+    list-style-type: none;
     /* align-content: space-between; */
 
 }
@@ -30,8 +31,8 @@ nav ul {
 }
 
 .banner {
-    border-color: brown;
-    border-style: dotted;
+    /* border-color: brown; */
+    /* border-style: dotted; */
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     align-items: center;
@@ -43,8 +44,8 @@ nav ul {
 }
 
 .group-img {
-    border-color: blue;
-    border-style: dotted;
+    /* border-color: blue;
+    border-style: dotted; */
     /* background-image: url(../assets/Group.png); */
     width: 260px;
     height: 217px;
@@ -65,8 +66,8 @@ nav ul {
 
 .web-career {
     background-color: rgb(252, 249, 246);
-    border-color: blueviolet;
-    border-style: dashed;
+    /* border-color: blueviolet;
+    border-style: dashed; */
     text-align: center;
     width: 1140px;
     height: 1393px;
@@ -86,15 +87,18 @@ nav ul {
 }
 .inspiration{
     width: 1140px;
+    width: 75%;
+    margin: 0 auto;
 }
 .cards{
     width: 1140px;
+    
 }
 
 .web-dev {
     display: flex;
-    border-color: brown;
-    border-style: dotted;
+    /* border-color: brown;
+    border-style: dotted; */
     text-align: center;
     width: 850px;
     height: 240px;
@@ -109,8 +113,8 @@ nav ul {
 
 
 .coding {
-    border-color: brown;
-    border-style: dotted;
+    /* border-color: brown;
+    border-style: dotted; */
     width: 477px;
     height: 219px;
  
@@ -119,22 +123,22 @@ nav ul {
 }
 
 .layer1 {
-    /* background-image: url(../assets/Layer_1.png); */
+
     width: 260px;
     height: 217px;
 }
 
 .group4 {
-    border-color: brown;
-    border-style: dotted;
-    /* background-image: url(../assets/Group\ 4.png); */
+    /* border-color: brown;
+    border-style: dotted; */
+
     width: 260px;
     height: 217px;
 
 }
 
 .group3 {
-    /* background-image: url(../assets/Group\ 3.png); */
+
     width: 260px;
     height: 217px;
 
@@ -168,23 +172,23 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-color: brown;
-    border-style: dotted;
+    /* border-color: brown;
+    border-style: dotted; */
     text-align: center;
     /* width: 650px; */
-    /* width: 50%; */
+    width: 50%;
     margin: 0 auto;
 
 }
 
 .cards-container{
     display: flex;
-    border-color: rgb(237, 5, 20);
-    border-style: dotted;
+    /* border-color: rgb(237, 5, 20);
+    border-style: dotted; */
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    width: 650px;
+    /* width: 650px; */
     margin-top: 150px;
     gap: 10px;
 
@@ -212,5 +216,39 @@ nav ul {
 }
 
 .support{
+    width: 1140px;
+    height: 313px;
     background-image: url(../assets/handshake.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+.support-container{
+
+}
+.footer{
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* align-items: center;  */
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .social-icons ul a li {
+	
+    display: inline-block;
+	/* vertical-align:middle; */
+    list-style-type:none;
+}
+social-icons ul a li{
+	list-style-type:none;
+}
+
