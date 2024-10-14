@@ -10,6 +10,10 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+.navbar{
+    max-width: 1440px;
+    text-decoration: none;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -33,18 +37,15 @@ nav ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 1440px;
-    height: 652px;
-    left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px;
+    max-width: 1440px;
+    height: 650px;
+    margin: 0 auto;
 }
 
 .group-img {
     border-color: blue;
     border-style: dotted;
-    background-image: url(../assets/Group.png);
+    /* background-image: url(../assets/Group.png); */
     width: 260px;
     height: 217px;
 
@@ -69,12 +70,12 @@ nav ul {
     text-align: center;
     width: 1140px;
     height: 1393px;
-    left: 148px;
+    /* left: 148px;
     right: 152px;
     top: 857px;
-    bottom: 2995px;
+    bottom: 2995px; */
 
-    /* display: flex; */
+
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -82,6 +83,12 @@ nav ul {
     padding: 80px 97px 80px 97px;
 
 
+}
+.inspiration{
+    width: 1140px;
+}
+.cards{
+    width: 1140px;
 }
 
 .web-dev {
@@ -91,8 +98,7 @@ nav ul {
     text-align: center;
     width: 850px;
     height: 240px;
-    /* Auto layout */
-    /* display: flex; */
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -101,23 +107,19 @@ nav ul {
     margin: 32px 0px;
 }
 
-/* Coding */
+
 .coding {
     border-color: brown;
     border-style: dotted;
     width: 477px;
     height: 219px;
-    /* Auto layout */
-    /* display: flex;
-flex-direction: column;
-justify-content: flex-start; */
-    align-items: center;
+ 
     gap: 32;
     padding: 0px;
 }
 
 .layer1 {
-    background-image: url(../assets/Layer_1.png);
+    /* background-image: url(../assets/Layer_1.png); */
     width: 260px;
     height: 217px;
 }
@@ -125,20 +127,22 @@ justify-content: flex-start; */
 .group4 {
     border-color: brown;
     border-style: dotted;
-    background-image: url(../assets/Group\ 4.png);
+    /* background-image: url(../assets/Group\ 4.png); */
     width: 260px;
     height: 217px;
 
 }
 
 .group3 {
-    background-image: url(../assets/Group\ 3.png);
+    /* background-image: url(../assets/Group\ 3.png); */
     width: 260px;
     height: 217px;
 
 }
 
 .web-video {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -160,15 +164,53 @@ justify-content: flex-start; */
 }
 
 .card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-color: brown;
     border-style: dotted;
     text-align: center;
-    width: 850px;  
+    /* width: 650px; */
+    /* width: 50%; */
+    margin: 0 auto;
+
 }
 
-.cards{
+.cards-container{
     display: flex;
     border-color: rgb(237, 5, 20);
     border-style: dotted;
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    width: 650px;
+    margin-top: 150px;
+    gap: 10px;
+
+
+}
+.card1, .card2, .card3 {
+    width: 33%;
+    height: 530px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+#bg-image1{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+#bg-image2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#bg-image3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.support{
+    background-image: url(../assets/handshake.jpg);
 }
